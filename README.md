@@ -1,2 +1,2 @@
-# insta-progect
+# insta-project
 yeoning repo
