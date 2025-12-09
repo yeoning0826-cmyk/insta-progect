@@ -219,7 +219,7 @@ function App() {
 			<div className="orb orb-3"></div>
 
 			<div className="container">
-				<h1 className="title" onClick={resetApp} style={{cursor: 'pointer'}} title="클릭하면 초기화">FLYO 인스타 언팔 분석</h1>
+								<h1 className="title" onClick={resetApp} style={{cursor: 'pointer'}} title="클릭하면 초기화">FLYO 인스타 언팔 분석</h1>
 				<p className="subtitle">
 					팔로워와 팔로잉 JSON 파일을 각각 업로드하면, 내가 팔로우하지만 나를 팔로우하지 않는 계정 목록을 보여줍니다.
 				</p>
@@ -352,9 +352,21 @@ function App() {
 					</div>
 				</section>
 
-				<footer className="footer">
-                    © 2025 Re-rank. All rights reserved. | seoyeon
-				</footer>
+								{/* 광고 영역: 푸터 바로 위에 고정 */}
+								<div style={{width: '100%', display: 'flex', justifyContent: 'center', margin: '2rem 0 1rem 0'}}>
+									<ins className="adsbygoogle"
+										style={{display: 'block', width: '100%', maxWidth: '728px', minHeight: '90px'}}
+										data-ad-client="ca-pub-1030877712793310"
+										data-ad-slot="1962400034"
+										data-ad-format="auto"
+										data-full-width-responsive="true"></ins>
+								</div>
+								<script>
+									{`(adsbygoogle = window.adsbygoogle || []).push({});`}
+								</script>
+								<footer className="footer" style={{textAlign: 'center', margin: '2rem auto 0 auto', width: '100%'}}>
+										© 2025 Re-rank. All rights reserved. | seoyeon
+								</footer>
 			</div>
 		</>
 	);
