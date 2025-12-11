@@ -351,21 +351,9 @@ function App() {
 						)}
 					</div>
 				</section>
-
-								{/* 광고 영역: 푸터 바로 위에 고정 */}
-								<div style={{width: '100%', display: 'flex', justifyContent: 'center', margin: '2rem 0 1rem 0'}}>
-									<ins className="adsbygoogle"
-										style={{display: 'block', width: '100%', maxWidth: '728px', minHeight: '90px'}}
-										data-ad-client="ca-pub-1030877712793310"
-										data-ad-slot="1962400034"
-										data-ad-format="auto"
-										data-full-width-responsive="true"></ins>
-								</div>
-								<script>
-									{`(adsbygoogle = window.adsbygoogle || []).push({});`}
-								</script>
-								<footer className="footer" style={{textAlign: 'center', margin: '2rem auto 0 auto', width: '100%'}}>
-										© 2025 Re-rank. All rights reserved. | seoyeon
+								
+								<footer className="footer" style={{textAlign: 'center', margin: '0 auto', width: '100%', padding: '2px 0', fontSize: '0.85rem', color: '#aaa', lineHeight: '1.2'}}>
+									© 2025 Re-rank. All rights reserved. | seoyeon
 								</footer>
 			</div>
 		</>
